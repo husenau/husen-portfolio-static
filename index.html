@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hussain Hameed | IT Support Specialist</title>
+  <style>
+    body { margin:0; font-family: 'Poppins', sans-serif; background: #0a192f; color: white; scroll-behavior: smooth; }
+    nav { position: fixed; top:0; width:100%; background: rgba(10,25,47,0.95); padding: 10px 20px; display: flex; justify-content: center; z-index: 1000; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: 500; }
+    nav a:hover { color: #3fa9f5; }
+    section { padding: 80px 20px; max-width: 1000px; margin: auto; }
+    .hero { height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+    .hero h1 { font-size: 3rem; margin-bottom: 10px; }
+    .hero p { font-size: 1.2rem; color: #ccd6f6; }
+    .btns a { display:inline-block; margin: 10px; padding: 10px 20px; border: 2px solid #3fa9f5; color: #3fa9f5; border-radius: 5px; text-decoration: none; }
+    .btns a:hover { background: #3fa9f5; color: #0a192f; }
+    .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 20px; }
+    .skill { background: #112240; padding: 10px; border-radius: 8px; text-align: center; }
+    .timeline { border-left: 2px solid #3fa9f5; padding-left: 20px; }
+    .timeline-item { margin-bottom: 20px; }
+    .timeline-item h3 { margin-bottom: 5px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
+    .card { background: #112240; padding: 20px; border-radius: 8px; }
+    form { display: flex; flex-direction: column; gap: 10px; max-width: 500px; }
+    input, textarea { padding: 10px; border: none; border-radius: 5px; }
+    button { padding: 10px; background: #3fa9f5; border: none; border-radius: 5px; color: #0a192f; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+  <h1>Hussain Hameed</h1>
+  <p>IT Support Specialist | Cloud Solutions | Problem Solver</p>
+  <div class="btns">
+    <a href="mailto:your-email@example.com">Email Me</a>
+    <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I’m an IT Support Specialist based in Melbourne with experience in Microsoft 365, Azure AD, SharePoint, and user support. I help businesses enhance productivity through secure, reliable technology solutions.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skill">Microsoft 365 Admin</div>
+    <div class="skill">Azure AD</div>
+    <div class="skill">SharePoint</div>
+    <div class="skill">Active Directory</div>
+    <div class="skill">Windows Server</div>
+    <div class="skill">Networking</div>
+    <div class="skill">PowerShell</div>
+    <div class="skill">Intune</div>
+    <div class="skill">Teams</div>
+    <div class="skill">Exchange Online</div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <h3>IT Support Specialist</h3>
+      <p>Delivered user-focused IT support, managed Microsoft 365 environments, and implemented security measures.</p>
+    </div>
+    <div class="timeline-item">
+      <h3>Senior Systems Engineer / SharePoint Specialist</h3>
+      <p>Led SharePoint migrations and optimised collaboration platforms.</p>
+    </div>
+    <div class="timeline-item">
+      <h3>IT Administrator & Support (Casual)</h3>
+      <p>Provided IT support and systems management for a small business environment.</p>
+    </div>
+  </div>
+</section>
+
+<section id="achievements">
+  <h2>Achievements</h2>
+  <div class="cards">
+    <div class="card">Migrated 250+ users to Microsoft 365 without disruption.</div>
+    <div class="card">Reduced support ticket resolution time by 30%.</div>
+    <div class="card">Implemented compliance measures for sensitive data.</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="4" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+  <p>Or connect on <a href="https://linkedin.com/in/yourprofile" target="_blank" style="color:#3fa9f5;">LinkedIn</a></p>
+</section>
+
+</body>
+</html>
